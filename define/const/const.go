@@ -12,7 +12,7 @@ const (
 // var big int = 9223372036854775807 + 1
 const big = 9223372036854775807 + 1
 
-func const_func() {
+func main() {
 	fmt.Println(Pi, Username, Password)
 	fmt.Println(big - 1)
 }

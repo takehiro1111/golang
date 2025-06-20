@@ -11,7 +11,8 @@ var (
 	t, f bool    = true, false
 )
 
-func foo() {
+func main() {
+	fmt.Println(i, f64, s, t, f)
 	xi := 1
 	var xf32 float32 = 1.2
 	var x64 string = "x64"
