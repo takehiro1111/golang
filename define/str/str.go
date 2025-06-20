@@ -14,6 +14,10 @@ func main() {
 	s = strings.Replace(s, "H", "X", 1)
 	fmt.Println(s)
 	fmt.Println(strings.Contains(s, "World"))
+	fmt.Println(strings.Contains("programing", "prog"))
+	fmt.Println(strings.ContainsAny(s, "word"))
+	fmt.Println(strings.ContainsAny("fail", "ui"))
+	fmt.Println(strings.ContainsAny(" ", " "))
 
 	fmt.Println(`Test
                       Test
