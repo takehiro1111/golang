@@ -3,8 +3,6 @@ package main
 import "fmt"
 
 
-
-
 func getMinNumber() {
 	var minNumber int 
 	l := []int{100, 300, 23, 11, 23, 2, 4, 6, 4}
