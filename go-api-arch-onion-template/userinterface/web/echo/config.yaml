@@ -1,0 +1,8 @@
+#  Please see for oapi-codegen settings here https://github.com/deepmap/oapi-codegen
+package: api
+generate:
+  models: true
+  client: true
+  embedded-spec: true
+  echo-server: true
+output: ./userinterface/web/echo/api/api.go
